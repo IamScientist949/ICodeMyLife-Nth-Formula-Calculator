@@ -1,0 +1,11 @@
+from sympy import symbols
+print(
+    "welcome to the nth term calculator, here you can enter your values and get the formula for the nth term"
+)
+print("formula:  nth term = a1 + (n-1) x d")
+print("a1 = 1st term , d = common difference")
+n=symbols('n')
+a1=float(input('a1='))
+d=float(input('d='))
+eq1=(a1+d*(n-1))
+print("your formula =", eq1)
